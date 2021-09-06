@@ -50,7 +50,7 @@ Search the related `builtinXXXSig` (XXX is the function signature you want to im
 
 Take [`MultiplyIntUnsigned`](https://github.com/pingcap/tikv/pull/3277) as an example, which we will use throughout this guide, you can find the corresponding function signature (`builtinArithmeticMultiplyIntUnsignedSig`) and its [implementation](https://github.com/pingcap/tidb/blob/master/expression/builtin_arithmetic.go#L532).
 
-### Step 3: Define the function
+### Step 3: Define the function TEST
 
 1. The name of the file where the built-in function exists in TiKV should correspond to the same name in TiDB.
 
